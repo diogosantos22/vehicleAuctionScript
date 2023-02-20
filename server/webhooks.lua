@@ -1,10 +1,10 @@
 -- 
 
 local WebHooks = {
-    ["startedAuction"] = 'https://discord.com/api/webhooks/1075473990841270322/RYtx89FEt5kkmgG6H2LM9lblpfzwqQd5D5cSNEJoudwlyX9tou2fV0xIgWYtgvsDKYvb',
-    ["finishedAuction"] = 'https://discord.com/api/webhooks/1075473990841270322/RYtx89FEt5kkmgG6H2LM9lblpfzwqQd5D5cSNEJoudwlyX9tou2fV0xIgWYtgvsDKYvb',
-    ["bid"] = 'https://discord.com/api/webhooks/1075473990841270322/RYtx89FEt5kkmgG6H2LM9lblpfzwqQd5D5cSNEJoudwlyX9tou2fV0xIgWYtgvsDKYvb',
-    ["cheaters"] = 'https://discord.com/api/webhooks/1075473990841270322/RYtx89FEt5kkmgG6H2LM9lblpfzwqQd5D5cSNEJoudwlyX9tou2fV0xIgWYtgvsDKYvb',
+    ["startedAuction"] = '',
+    ["finishedAuction"] = '',
+    ["bid"] = '',
+    ["cheaters"] = '',
 }
 
 colors = {

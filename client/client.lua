@@ -140,7 +140,7 @@ function openVehicleList(areaId, list)
     local elements = {}
     for id, veh in pairs(list) do
         elements[#elements + 1] = {
-            label = GetDisplayNameFromVehicleModel(veh.props.model),
+            label = GetDisplayNameFromVehicleModel(veh.props.model) .. "[ " .. veh.props.plate .. " ]",
             value = id
         }
     end

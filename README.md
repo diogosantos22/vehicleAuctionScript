@@ -1,7 +1,8 @@
+![Screenshot_2|690x250](upload://b7czHprGAMMcGg9nBuGvELhR0sQ.png)
 
 
 
-### Auction Script 🤔
+### Vehicle Auction Script 🤔
 
 Are you looking for a custom-made vehicle auction script for FiveM that is fully synced, configurable, and user-friendly? Look no further! I'm excited to present my latest creation - a custom vehicle auction script for FiveM that will take your server to the next level.
 
@@ -15,12 +16,18 @@ My script allows you to create and configure your own auction areas, set the dur
 - Supports four different notification systems
 - Synced with all players
 - Car spinning animation (uwu)
+- Optimized (0.00 in idle)
 
 # [Config Preview](https://i.ibb.co/v3NvS6K/carbon-1.png)
+# [Script Preview 1](https://i.ibb.co/NNm77JH/imagem.png)
+# [Script Preview 2](https://i.ibb.co/JqN0yLg/imagem.png)
 
-# You can [Preview 📷]() & [Download 🔥](https://github.com/diogosantos22/vehicleauction) it!
-# For Support join my [discord](https://discord.gg/xdqMmuhx2U)
 
+
+# You can [Download (github) 🔥](https://github.com/diogosantos22/vehicleAuctionScript) it!
+# For support join my [discord](https://discord.gg/xdqMmuhx2U) and if you need something, just open a ticket!
+
+### ps: dont kill me if some error show up, send me the error and i'll fix it asap!
 |                                         |                                |
 |-------------------------------------|----------------------------|
 | Code is accessible       | Yes     |

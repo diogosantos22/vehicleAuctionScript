@@ -20,8 +20,3 @@ client_scripts {
 	'client/enumerators.lua',
 	'client/client.lua',
 }
-
-
-
-lua54 'yes'
-shared_script '@rbSafeEvents/shared.lua'

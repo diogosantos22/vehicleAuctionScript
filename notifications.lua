@@ -70,6 +70,6 @@ else
 
     RegisterNetEvent("auction:notification")
     AddEventHandler("auction:notification", function(type, title, text)
-        notification(chosenOne)(type, title, text)
+        notification(type, title, text)
     end)
 end

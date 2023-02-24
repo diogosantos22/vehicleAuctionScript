@@ -68,7 +68,7 @@ AddEventHandler("auction:claimArea", function(id, title, initialValue, data)
     area.data.data = {title = title, props = data.props}
 
     TriggerClientEvent("auction:timer", -1, id, Config.AuctionDuration)
-    TriggerClientEvent("auction:syncAreas", src, Config.AuctionAreas)
+    TriggerClientEvent("auction:syncAreas", -1, Config.AuctionAreas)
 
     SetTimeout(Config.AuctionDuration * 1000, function()
         local area = Config.AuctionAreas[id]
@@ -88,7 +88,7 @@ AddEventHandler("auction:claimArea", function(id, title, initialValue, data)
 
             area.data.data = nil
 
-            TriggerClientEvent("auction:syncAreas", src, Config.AuctionAreas)
+            TriggerClientEvent("auction:syncAreas", -1, Config.AuctionAreas)
             return
         end
 
@@ -130,7 +130,7 @@ AddEventHandler("auction:claimArea", function(id, title, initialValue, data)
         area.data.data = nil
         
 
-        TriggerClientEvent("auction:syncAreas", src, Config.AuctionAreas)
+        TriggerClientEvent("auction:syncAreas", -1, Config.AuctionAreas)
     end)
 end)
 

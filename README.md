@@ -33,5 +33,5 @@ My script allows you to create and configure your own auction areas, set the dur
 | Code is accessible       | Yes     |
 | Subscription-based      | No                         |
 | Lines (approximately)  | 400             |
-| Requirements                | nothing                |
+| Requirements                | Async, MySql                |
 | Support                           | Yes                       |

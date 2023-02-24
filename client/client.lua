@@ -1,4 +1,3 @@
-local ESX = nil
 local cacheTimers = {}
 
 
@@ -6,12 +5,6 @@ for veh in EnumerateVehicles() do
     DeleteEntity(veh)
 end
 
-Citizen.CreateThread(function()
-    while ESX == nil do
-        TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-        Citizen.Wait(0)
-    end
-end)
 
 local player = {ped = nil, coords = nil, areaId = nil}
 

@@ -6,6 +6,7 @@ author 'santos#0069'
 description 'Simple Vehicle Auction Script'
 
 shared_script 'config.lua'
+shared_script 'esx.lua'
 shared_script 'notifications.lua'
 
 server_scripts {

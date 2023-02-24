@@ -9,6 +9,9 @@ Config = {}
 ]]
 Config.Notifications = "mythic_notify"
 
+-- Esx version, put "legacy" if you are using legacy, if not, just write "old"
+Config.ESX = "old"
+
 Config.AuctionDuration = 10 -- Duration In seconds
 
 Config.MapBlips = {

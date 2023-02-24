@@ -1,8 +1,3 @@
-ESX = nil
-
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-
-
 RegisterServerEvent("auction:isAreaFree")
 AddEventHandler("auction:isAreaFree", function(id)
     local src = source
